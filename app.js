@@ -65,3 +65,5 @@ const main = async () => {
 }
 
 main();
+
+console.log("HelloWorld");
