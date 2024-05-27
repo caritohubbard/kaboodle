@@ -17,12 +17,12 @@ const ChatGPTInstance = new ChatGPTClass();
 const flowConfirmar = addKeyword('Quiero inscribirme').addAnswer('Por favor Brindame tu nombre completo, correo electrónico, si es usted médico, y en donde se encuentra')
 
 const flowInicial = addKeyword(["hola", "información", "saber mas", "hi", "holi", "cursos"])
-    .addAnswer("🙌 Hola! Bienvenido al Bot de Medica Capacitación. Recuerda que nuestros cursos son para médicos practicantes, por lo que sugerimos tener alguna experiencia antes de tomarlos!🤓", null, async () => {
+    .addAnswer("🙌 Hola! Bienvenido al Bot de Medica Capacitación🏥🩺. Recuerda que nuestros cursos son para médicos practicantes, por lo que sugerimos tener alguna experiencia antes de tomarlos!🤓", null, async () => {
     await ChatGPTInstance.handleMsgChatGPT(PROMP)
 })
-    .addAnswer("Estoy aquí para ayudarte. Si te interesa alguno de nuestros diplomados puedo darte más información cuando estés list@, o si tienes planeado inscribirte a alguno de nuestros diplomados, escribe *Quiero inscribirme* y con gusto te guío por el proceso de registro😊.")
+    .addAnswer("Estoy aquí para ayudarte✨. Si te interesa alguno de nuestros diplomados puedo darte más información cuando estés list@, o si tienes planeado inscribirte a alguno de nuestros diplomados, escribe *Quiero inscribirme* y con gusto te guío por el proceso de registro😊.")
     .addAnswer(
-        "¿En qué te puedo informar?",   
+        "¿En qué te puedo informar?🧐",   
     
     
 
